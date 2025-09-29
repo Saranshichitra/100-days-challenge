@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int num, binarynum = 10, remainder;                                         //Declaration and Initialization
+    int num, binarynum = 0, remainder;                                         //Declaration and Initialization
     printf("Enter the number \n");
     scanf("%d", &num);                                                         //Accepting value from the user                
     while( num != 0) {
@@ -15,4 +15,5 @@ int main() {
     } 
     printf("binary equivalant =%d", binarynum);                              //Output Statement   
     return 0;
+
 }
