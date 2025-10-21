@@ -4,21 +4,22 @@ int main() {
     printf("How many elements you want to add initially:\n");
     scanf("%d",  &n);
     int a[n];
-    printf("Enter the values one by one");
+    printf("Enter the values one by one\n");
     for ( i = 0; i < n; i++ ) {
         scanf("%d", &a[i]);
     }
-      printf("Enter the number ypu want to add:/n");
+      printf("Enter the number ypu want to add:\n");
       scanf("%d", &x);
       printf("At what position\n");
       scanf("%d", &pos);
        for (int i=n; i>=pos; i--) {
         a[i] = a[i-1];
  }
- a[pos-1] = x; 
- printf("Final array:");
+ a[pos] = x; 
+ printf("Final array:\n");
  for( i = 0; i <= n; i++) {
-    printf("%d", a[i]);
+    printf("%d ", a[i]);
  }
  return 0;
 } 
+
