@@ -12,7 +12,8 @@ int main() {
         printf("Memory allocation failed\n");     //Output statement if s is empty
     }
     scanf("%s %d %d", s->name, &s->roll, &s->marks);          //Accepting values from the user
-    printf("Name: %s\nRoll: %d\nMarks: %d", s->name, s->roll, s->marks);    //Printing the required output
+    printf("Name: %s | Roll: %d | Marks: %d", s->name, s->roll, s->marks);    //Printing the required output
     free(s);
     return 0;
 }
+
